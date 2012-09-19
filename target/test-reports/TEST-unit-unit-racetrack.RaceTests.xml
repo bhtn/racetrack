@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" name="racetrack.RaceTests" tests="1" time="0.011" timestamp="2012-09-19T03:08:36">
+  <properties />
+  <testcase classname="racetrack.RaceTests" name="testInMiles" time="0.011" />
+  <system-out><![CDATA[--Output from testInMiles--
+]]></system-out>
+  <system-err><![CDATA[--Output from testInMiles--
+]]></system-err>
+</testsuite>

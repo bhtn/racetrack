@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="0" name="RaceIntegrationTests" package="racetrack" tests="1" time="0.088" timestamp="2012-09-19T03:08:43">
+      <properties />
+
+      <testcase classname="racetrack.RaceIntegrationTests" name="testRaceDatesBeforeToday" time="0.016" />
+
+      <system-out><![CDATA[--Output from testRaceDatesBeforeToday--
+
+Errors:
+org.springframework.validation.BeanPropertyBindingResult: 6 errors
+Field error in object 'racetrack.Race' on field 'startDate': rejected value [Tue Sep 11 20:08:43 PDT 2012]; codes [racetrack.Race.startDate.validator.error.racetrack.Race.startDate,racetrack.Race.startDate.validator.error.startDate,racetrack.Race.startDate.validator.error.java.util.Date,racetrack.Race.startDate.validator.error,race.startDate.validator.error.racetrack.Race.startDate,race.startDate.validator.error.startDate,race.startDate.validator.error.java.util.Date,race.startDate.validator.error,racetrack.Race.startDate.validator.invalid.racetrack.Race.startDate,racetrack.Race.startDate.validator.invalid.startDate,racetrack.Race.startDate.validator.invalid.java.util.Date,racetrack.Race.startDate.validator.invalid,race.startDate.validator.invalid.racetrack.Race.startDate,race.startDate.validator.invalid.startDate,race.startDate.validator.invalid.java.util.Date,race.startDate.validator.invalid,validator.invalid.racetrack.Race.startDate,validator.invalid.startDate,validator.invalid.java.util.Date,validator.invalid]; arguments [startDate,class racetrack.Race,Tue Sep 11 20:08:43 PDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
+Field error in object 'racetrack.Race' on field 'distance': rejected value [null]; codes [racetrack.Race.distance.nullable.error.racetrack.Race.distance,racetrack.Race.distance.nullable.error.distance,racetrack.Race.distance.nullable.error.java.math.BigDecimal,racetrack.Race.distance.nullable.error,race.distance.nullable.error.racetrack.Race.distance,race.distance.nullable.error.distance,race.distance.nullable.error.java.math.BigDecimal,race.distance.nullable.error,racetrack.Race.distance.nullable.racetrack.Race.distance,racetrack.Race.distance.nullable.distance,racetrack.Race.distance.nullable.java.math.BigDecimal,racetrack.Race.distance.nullable,race.distance.nullable.racetrack.Race.distance,race.distance.nullable.distance,race.distance.nullable.java.math.BigDecimal,race.distance.nullable,nullable.racetrack.Race.distance,nullable.distance,nullable.java.math.BigDecimal,nullable]; arguments [distance,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
+Field error in object 'racetrack.Race' on field 'name': rejected value [null]; codes [racetrack.Race.name.nullable.error.racetrack.Race.name,racetrack.Race.name.nullable.error.name,racetrack.Race.name.nullable.error.java.lang.String,racetrack.Race.name.nullable.error,race.name.nullable.error.racetrack.Race.name,race.name.nullable.error.name,race.name.nullable.error.java.lang.String,race.name.nullable.error,racetrack.Race.name.nullable.racetrack.Race.name,racetrack.Race.name.nullable.name,racetrack.Race.name.nullable.java.lang.String,racetrack.Race.name.nullable,race.name.nullable.racetrack.Race.name,race.name.nullable.name,race.name.nullable.java.lang.String,race.name.nullable,nullable.racetrack.Race.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
+Field error in object 'racetrack.Race' on field 'state': rejected value [null]; codes [racetrack.Race.state.nullable.error.racetrack.Race.state,racetrack.Race.state.nullable.error.state,racetrack.Race.state.nullable.error.java.lang.String,racetrack.Race.state.nullable.error,race.state.nullable.error.racetrack.Race.state,race.state.nullable.error.state,race.state.nullable.error.java.lang.String,race.state.nullable.error,racetrack.Race.state.nullable.racetrack.Race.state,racetrack.Race.state.nullable.state,racetrack.Race.state.nullable.java.lang.String,racetrack.Race.state.nullable,race.state.nullable.racetrack.Race.state,race.state.nullable.state,race.state.nullable.java.lang.String,race.state.nullable,nullable.racetrack.Race.state,nullable.state,nullable.java.lang.String,nullable]; arguments [state,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
+Field error in object 'racetrack.Race' on field 'cost': rejected value [null]; codes [racetrack.Race.cost.nullable.error.racetrack.Race.cost,racetrack.Race.cost.nullable.error.cost,racetrack.Race.cost.nullable.error.java.math.BigDecimal,racetrack.Race.cost.nullable.error,race.cost.nullable.error.racetrack.Race.cost,race.cost.nullable.error.cost,race.cost.nullable.error.java.math.BigDecimal,race.cost.nullable.error,racetrack.Race.cost.nullable.racetrack.Race.cost,racetrack.Race.cost.nullable.cost,racetrack.Race.cost.nullable.java.math.BigDecimal,racetrack.Race.cost.nullable,race.cost.nullable.racetrack.Race.cost,race.cost.nullable.cost,race.cost.nullable.java.math.BigDecimal,race.cost.nullable,nullable.racetrack.Race.cost,nullable.cost,nullable.java.math.BigDecimal,nullable]; arguments [cost,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
+Field error in object 'racetrack.Race' on field 'city': rejected value [null]; codes [racetrack.Race.city.nullable.error.racetrack.Race.city,racetrack.Race.city.nullable.error.city,racetrack.Race.city.nullable.error.java.lang.String,racetrack.Race.city.nullable.error,race.city.nullable.error.racetrack.Race.city,race.city.nullable.error.city,race.city.nullable.error.java.lang.String,race.city.nullable.error,racetrack.Race.city.nullable.racetrack.Race.city,racetrack.Race.city.nullable.city,racetrack.Race.city.nullable.java.lang.String,racetrack.Race.city.nullable,race.city.nullable.racetrack.Race.city,race.city.nullable.city,race.city.nullable.java.lang.String,race.city.nullable,nullable.racetrack.Race.city,nullable.city,nullable.java.lang.String,nullable]; arguments [city,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
+
+BadField:
+Field error in object 'racetrack.Race' on field 'startDate': rejected value [Tue Sep 11 20:08:43 PDT 2012]; codes [racetrack.Race.startDate.validator.error.racetrack.Race.startDate,racetrack.Race.startDate.validator.error.startDate,racetrack.Race.startDate.validator.error.java.util.Date,racetrack.Race.startDate.validator.error,race.startDate.validator.error.racetrack.Race.startDate,race.startDate.validator.error.startDate,race.startDate.validator.error.java.util.Date,race.startDate.validator.error,racetrack.Race.startDate.validator.invalid.racetrack.Race.startDate,racetrack.Race.startDate.validator.invalid.startDate,racetrack.Race.startDate.validator.invalid.java.util.Date,racetrack.Race.startDate.validator.invalid,race.startDate.validator.invalid.racetrack.Race.startDate,race.startDate.validator.invalid.startDate,race.startDate.validator.invalid.java.util.Date,race.startDate.validator.invalid,validator.invalid.racetrack.Race.startDate,validator.invalid.startDate,validator.invalid.java.util.Date,validator.invalid]; arguments [startDate,class racetrack.Race,Tue Sep 11 20:08:43 PDT 2012]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
+
+Code:
+race.startDate.validator.invalid
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testRaceDatesBeforeToday--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="1" name="AdminControllerTests" package="racetrack" tests="1" time="0.281" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.AdminControllerTests" name="testSomething" time="0.281" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="2" name="AdminFiltersTests" package="racetrack" tests="1" time="0.0030" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.AdminFiltersTests" name="testSomething" time="0.0020" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="3" name="FooterTagLibTests" package="racetrack" tests="1" time="0.03" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.FooterTagLibTests" name="testSomething" time="0.029" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="4" name="LoginTagLibTests" package="racetrack" tests="1" time="0.012" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.LoginTagLibTests" name="testSomething" time="0.012" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="5" name="RaceControllerTests" package="racetrack" tests="1" time="0.027" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.RaceControllerTests" name="testSomething" time="0.027" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="6" name="RaceTests" package="racetrack" tests="1" time="0.011" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.RaceTests" name="testInMiles" time="0.011" />
+
+      <system-out><![CDATA[--Output from testInMiles--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testInMiles--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="7" name="RegistrationControllerTests" package="racetrack" tests="1" time="0.0060" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationControllerTests" name="testSomething" time="0.0060" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="8" name="RegistrationTests" package="racetrack" tests="1" time="0.0030" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.RegistrationTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="9" name="RunnerControllerTests" package="racetrack" tests="1" time="0.0080" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.RunnerControllerTests" name="testSomething" time="0.0080" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="10" name="RunnerTests" package="racetrack" tests="1" time="0.0020" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.RunnerTests" name="testSomething" time="0.0020" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="11" name="UserControllerTests" package="racetrack" tests="3" time="0.279" timestamp="2012-09-19T03:08:36">
+      <properties />
+
+      <testcase classname="racetrack.UserControllerTests" name="testIndex" time="0.049" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testShow" time="0.208" />
+
+      <testcase classname="racetrack.UserControllerTests" name="testAuthenticate" time="0.021">
+          <error message="No such property: SHACodec for class: racetrack.UserControllerTests" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: SHACodec for class: racetrack.UserControllerTests
+	at racetrack.UserControllerTests$_setUp_closure2.doCall(UserControllerTests.groovy:22)
+	at racetrack.UserControllerTests.testAuthenticate(UserControllerTests.groovy:45)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:262)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:221)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:181)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testShow--
+--Output from testAuthenticate--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testShow--
+--Output from testAuthenticate--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="Nguyens-MacBook-Pro-2.local" id="12" name="UserTests" package="racetrack" tests="2" time="0.105" timestamp="2012-09-19T03:08:37">
+      <properties />
+
+      <testcase classname="racetrack.UserTests" name="testSimpleConstraints" time="0.077" />
+
+      <testcase classname="racetrack.UserTests" name="testUniqueConstraint" time="0.028">
+          <error message="No signature of method: racetrack.UserTests.assertEqualsNotNull() is applicable for argument types: (racetrack.User) values: [good]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: racetrack.UserTests.assertEqualsNotNull() is applicable for argument types: (racetrack.User) values: [good]
+	at racetrack.UserTests.testUniqueConstraint(UserTests.groovy:38)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:262)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:221)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:181)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSimpleConstraints--
+--Output from testUniqueConstraint--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSimpleConstraints--
+--Output from testUniqueConstraint--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

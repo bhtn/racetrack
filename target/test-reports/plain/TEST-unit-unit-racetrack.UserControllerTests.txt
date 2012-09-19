@@ -1,0 +1,39 @@
+Testsuite: racetrack.UserControllerTests
+Tests run: 3, Failures: 0, Errors: 1, Time elapsed: 0.279 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testShow--
+--Output from testAuthenticate--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testShow--
+--Output from testAuthenticate--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0.049 sec
+Testcase: testShow took 0.208 sec
+Testcase: testAuthenticate took 0.021 sec
+	Caused an ERROR
+No such property: SHACodec for class: racetrack.UserControllerTests
+groovy.lang.MissingPropertyException: No such property: SHACodec for class: racetrack.UserControllerTests
+	at racetrack.UserControllerTests$_setUp_closure2.doCall(UserControllerTests.groovy:22)
+	at racetrack.UserControllerTests.testAuthenticate(UserControllerTests.groovy:45)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:262)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:221)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:181)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+
